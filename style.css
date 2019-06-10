@@ -11,22 +11,13 @@ html {
 
 body {
 	max-width: 60em;
-	margin: 6em auto;
-}
-
-body > * {
+	margin: 6em 1em;
 	background: #13120e;
 	border: #000 1px solid;
 	padding: 1.5em;
 }
 
 h1 {
-	text-align: center;
-	font-size: 1em;
-	font-weight: normal;
-}
-
-h2 {
 	letter-spacing: 0.2em;
 	text-align:     right;
 	font-family:    "Bitstream Vera Serif", serif;
@@ -47,12 +38,4 @@ a.permalink {
 
 table.head, table.foot {
 	display: none;
-}
-
-h1:before {
-	background-size: 160px 160px;
-	background-height: 160px;
-	background-width: 160px;
-	display: block;
-	content: url('/gfx/2012-pic.jpg')
 }
