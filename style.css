@@ -1,0 +1,58 @@
+html {
+	background:	#191814;
+	color:		#EEEEEE;
+	text-shadow:	black -1px 0px 0px, black 0px -1px 0px, black 1px 0px 0px, black 0px 1px 0px;
+	font-family:	"Bitstream Vera Sans",sans-serif;
+	font-size: 1.1em;
+	font-weight: lighter;
+	line-height: 1.4;
+	word-spacing:	0.1em;
+}
+
+body {
+	max-width: 60em;
+	margin: 6em auto;
+}
+
+body > * {
+	background: #13120e;
+	border: #000 1px solid;
+	padding: 1.5em;
+}
+
+h1 {
+	text-align: center;
+	font-size: 1em;
+	font-weight: normal;
+}
+
+h2 {
+	letter-spacing: 0.2em;
+	text-align:     right;
+	font-family:    "Bitstream Vera Serif", serif;
+	font-weight:    bolder;
+	letter-spacing: 0.07em;
+}
+
+a {
+	color: #FFCD8B;
+	font-weight: bolder;
+	text-decoration: none;
+}
+
+a.permalink {
+	color: #FFF;
+	font-weight: normal;
+}
+
+table.head, table.foot {
+	display: none;
+}
+
+h1:before {
+	background-size: 160px 160px;
+	background-height: 160px;
+	background-width: 160px;
+	display: block;
+	content: url('/gfx/2012-pic.jpg')
+}
