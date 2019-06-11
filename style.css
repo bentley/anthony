@@ -7,11 +7,12 @@ html {
 	font-weight: lighter;
 	line-height: 1.4;
 	word-spacing:	0.1em;
+	padding: 1em;
 }
 
 body {
 	max-width: 60em;
-	margin: 6em 1em;
+	margin: 6em auto;
 	background: #13120e;
 	border: #000 1px solid;
 	padding: 1.5em;
