@@ -10,6 +10,10 @@ html {
 	padding: 1em;
 }
 
+html > p:first-child {
+	text-align: center;
+}
+
 body {
 	max-width: 60em;
 	margin: 6em auto;
